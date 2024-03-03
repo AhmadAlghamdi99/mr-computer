@@ -1,0 +1,120 @@
+
+body {
+    background-color: rgb(193, 49, 255);
+    /*rgb(193, 49, 255)*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;  
+}
+
+/* NAVIGATION BAR */
+nav {
+    height: 80px;
+    background: rgb(144, 0, 206);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px) / 2);
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 0 1.5rem;
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }
+  
+/* CONTAINER */
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.gpu {
+    background-image: url("../image/gpu.jpg");
+    background-size: cover;
+    width: 550px;
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cpu {
+    background-image: url("../image/cpu.jpg");
+    background-size: cover;
+    width: 550px;
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .memory {
+    background-image: url("../image/memory.jpg");
+    background-size: cover;
+    width: 550px;
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ram {
+    background-image: url("../image/ram.jpg");
+    background-size: cover;
+    width: 550px;
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .case {
+    background-image: url("../image/case.jpg");
+    background-size: cover;
+    width: 550px;
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .powerSup {
+    background-image: url("../image/power\ supply.jpg");
+    background-size: cover;
+    width: 550px;
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h3{
+    background-color: #c657e7;
+    color: #fff;
+    width: fit-content;
+    padding: 5px 8px;
+    text-align: center;
+  }
+  
+  /* FOOTER */
+  footer {
+    background-color: rgb(144, 0, 206); 
+    padding: 20px; 
+    text-align: center; 
+  }
+  
+  footer p {
+    color: #333; 
+    margin: 0; /* Remove default margin */
+  }
